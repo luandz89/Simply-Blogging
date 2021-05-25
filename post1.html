@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CodeBlack IT Solutions Blog Dashboard</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="CodeBlack IT Solutions Site">
+    <meta name="author" content="Hope">
+
+
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/summernote/dist/summernote.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="assets/css/blog-dash.css">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/color_skins.css">
+</head>
+
+<body class="theme-cyan">
+
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30"><img src="assets/images/icon-light.svg" width="48" height="48" alt="HexaBit"></div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+
+    <div id="wrapper">
+
+        <!-- navigation on top -->
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+
+                <div class="navbar-left">
+                    <div class="navbar-btn">
+                        <a href="index.html"><img src="assets/images/icon-light.svg" alt="CodeBlack IT Solutions Logo" class="img-fluid logo"></a>
+                        <button type="button" class="btn-toggle-offcanvas"><i class="lnr lnr-menu fa fa-bars"></i></button>
+                    </div>
+                    <a href="javascript:void(0);" class="icon-menu btn-toggle-fullwidth"><i
+                        class="fa fa-arrow-left"></i></a>
+
+                </div>
+
+
+            </div>
+        </nav>
+
+        <!-- navigaion on the left sidebar -->
+        <div id="left-sidebar" class="sidebar">
+            <div class="navbar-brand">
+                <a href="index.html"><img src="assets/images/icon-light.svg" alt="Code_BlackITSolutions Logo" class="img-fluid logo"><span>Code_Black IT Solutions</span></a>
+                <button type="button" class="btn-toggle-offcanvas btn btn-sm btn-default float-right"><i
+                    class="lnr lnr-menu fa fa-chevron-circle-left"></i></button>
+            </div>
+            <div class="sidebar-scroll">
+
+
+            </div>
+            <nav id="left-sidebar-nav" class="sidebar-nav">
+                <ul id="main-menu" class="metismenu">
+                    <li><a href="index.html"><i class="icon-home"></i><span>Home</span></a></li>
+
+
+                    <li class="active">
+                        <a href="#Blog" class="has-arrow"><i class="icon-globe"></i><span>Blog</span></a>
+                        <ul>
+                            <li><a href="blog-dashboard.html">Blog Dashboard</a></li>
+                            <li class="active"><a href="#">Post</a></li>
+                            <li><a href="blog-post.html">New Post</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div id="main-content">
+            <!-- header on top of blog information -->
+            <div class="block-header">
+                <div class="row clearfix">
+                    <div class="col-md-6 col-sm-12">
+                        <h2><b>Post</b></h2>
+                    </div>
+                    <div class="col-md-6 col-sm-12 text-right">
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>
+                            <li class="breadcrumb-item"><a href="#">Blog</a></li>
+                            <li class="breadcrumb-item "><a href="blog-dashboard.html">Blog Dashboard</a></li>
+                            <li class="breadcrumb-item"><a href="#">Post</a></li>
+                            <li class="breadcrumb-item active">Programming made fun</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row clearfix">
+                    <!-- left box information -->
+                    <div class="col-lg-8 col-md-12 left-box">
+                        <div class="card single_post2">
+                            <img class="img-fluid" src="assets/images/blog-pic-1.jpg" alt="img">
+                            <div class="body">
+                                <div class="content">
+                                    <div class="actions_sidebar">
+                                        <a href="javascript:void(0)"><i class="icon-share"></i></a>
+                                        <a href="javascript:void(0)"><i class="icon-heart"></i> <span>5</span></a>
+                                        <a href="javascript:void(0)"><i class="icon-bubble"></i> <span>8</span></a>
+                                    </div>
+                                    <h4 class="title">Programming made fun </h4>
+                                    <p class="date">
+                                        <small>Apr 30, 2021</small>
+                                    </p>
+                                    <p class="text">
+                                        <p>Well, first of all, coding is work. Work can be fun, but it’s not like playing a game. But on the other hand, games also get quite boring very soon - while coding will always stay challenging.</p>
+                                        <p>Solve a big problem. The rewards to solve something you and your team have sweated over for days (or weeks), is beyond words.</p>
+                                        <p>Design a system, make it work, make it nice, and be happy about your achievement :) </p>
+                                        <p>Another thing - the worst is learning a new thing - it is usually very challenging, and your progress is much slower than you wish it was. To make that fun, I usually trick my brain. For example, when I was learning
+                                            about assembly language, and we had a project to program a tiny hardware display - well first, it was very boring. You had to study the hardware manual, it had inputs and outputs, and all you could achieve was
+                                            a few letters to appear on the screen. But I just challenged myself to master that thing, and to do that, I came up with my own “special exercise”. Instead of simple writing 10101 on the display, I came up with
+                                            the idea to write something more stupid, more childish on the display something like - ——CALL -ME - NOW -XXXX — flashing and moving over the screen - this was WAY more advanced than the actual task we had been
+                                            assigned in class. I just used this stupid thing to motivate myself to learn everything I could about assembly languages, and boy, this worked out well! :) </p>
+                                        <p>In my afternoons, after the class was over, I stayed many more hours, studied the entire manual, to make it work. When I had achieved this, I was very proud, and I had learned a BIG amount about programming this
+                                            little device in assembly language. So I called my professor and showed him, very proud - my end result. The only thing that he saw was that I “abused” his hardware to write something inappropriate. He didn’t
+                                            get the part that I had just mastered the entire thing, and had achieved something he himself probably hadn’t done before - moving flashing letters, bringing that tiny device above and beyond its limits. But
+                                            this didn’t matter to me. I knew better. I am still proud about my achievement even today. It was BIG fun :). </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- right box information -->
+                    <div class="col-lg-4 col-md-12 right-box">
+                        <div class="card">
+                            <div class="header">
+                                <h2>Code_Black IT Social Media links:</h2>
+                            </div>
+                            <div class="body widget">
+                                <ul class="list-inline text-center">
+                                    <h1>
+                                        <a href="https://www.linkedin.com/in/lwandile-ngesi"><i class="fa fa-linkedin"></i></a>
+
+                                        <a href="https://www.facebook.com/luandz"><i class="fa fa-facebook"></i></a>
+
+                                        <a href="https://github.com/luandz89/git-test-projects.git"><i class="fa fa-github"></i></a>
+                                    </h1>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="header">
+                                <h2>Popular Posts</h2>
+                            </div>
+                            <div class="body widget popular-post">
+                                <div class="row clearfix">
+                                    <div class="col-lg-12">
+                                        <div class="single_post">
+                                            <p class="m-b-0">Programming made fun</p>
+                                            <span>Apr 30, 2021</span>
+                                            <div class="img-post">
+                                                <a href="post1.html"> <img src="assets/images/post-pic-1.jpg" alt="Awesome Image">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class=" single_post ">
+                                            <p class="m-b-0 ">Planning your projects</p>
+                                            <span>Apr 29, 2021</span>
+                                            <div class="img-post ">
+                                                <a href="post4.html"> <img src="assets/images/post-pic-2.jpg " alt="Awesome Image ">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="header">
+                                <h2>Email Newsletter <small>Get our products/news earlier than others, let’s get in touch.</small></h2>
+                            </div>
+                            <div class="body widget newsletter">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Enter Email">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="icon-paper-plane"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <footer>Copyright © Code_Black IT Solutions 2021</footer>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="assets/bundles/libscripts.bundle.js"></script>
+    <script src="assets/bundles/vendorscripts.bundle.js"></script>
+
+    <script src="assets/bundles/mainscripts.bundle.js"></script>
+</body>
+
+</html>
